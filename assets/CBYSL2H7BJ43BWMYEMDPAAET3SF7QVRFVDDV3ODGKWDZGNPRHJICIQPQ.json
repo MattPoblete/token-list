@@ -1,0 +1,10 @@
+{
+    "name": "EURoCoin",
+    "code": "EURC",
+    "issuer": "GCPJFNZAARY3Z2AM7RVXDZDLPOEBT4QHTQXFOFKMZHLV7PPDKE2M67Q6",
+    "contract": "CBYSL2H7BJ43BWMYEMDPAAET3SF7QVRFVDDV3ODGKWDZGNPRHJICIQPQ",
+    "org": "Eurocoin Network",
+    "domain": "euchain.io",
+    "icon": "https://ipfs.io/ipfs/bafkreih6jv72q2zuthweyyzq5vqu4dcnxbkefd7o7shgs2llnqrdeufyiy",
+    "decimals": 7
+}

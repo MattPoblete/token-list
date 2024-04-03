@@ -7,13 +7,23 @@
   "network": "mainnet",
   "assets": [
     {
+      "name": "EURoCoin",
       "code": "EURC",
       "issuer": "GCPJFNZAARY3Z2AM7RVXDZDLPOEBT4QHTQXFOFKMZHLV7PPDKE2M67Q6",
-      "name": "EURoCoin",
       "contract": "CBYSL2H7BJ43BWMYEMDPAAET3SF7QVRFVDDV3ODGKWDZGNPRHJICIQPQ",
-      "icon": "https://static.ultrastellar.com/media/assets/img/f8b00dbf-64b3-488f-bcd2-354f29e2cdc8.png",
-      "org": "Ultra Capital LLC",
-      "domain": "undefined",
+      "org": "Eurocoin Network",
+      "domain": "euchain.io",
+      "icon": "https://ipfs.io/ipfs/bafkreih6jv72q2zuthweyyzq5vqu4dcnxbkefd7o7shgs2llnqrdeufyiy",
+      "decimals": 7
+    },
+    {
+      "code": "ASD2",
+      "issuer": "GBZXUKUYGXLASTLIXGIV2RJGWQHVRIS7AANR7AHXFPA67LNSAGO6WPPE",
+      "contract": "CC6NDZZ7VX7UOUQVC3QOARDS24DV4F7ADKYC5LY7PQBIPHJWRJKGSKNF",
+      "name": "Asset demo 2",
+      "org": "NSSMTTT",
+      "domain": "nssmtrading.org",
+      "icon": "https://ipfs.io/ipfs/bafkreibsn3p2iues6gfdrugown3qhkh6jpe5grg2uhffrmf2djfttq77bu",
       "decimals": 7
     }
   ]
