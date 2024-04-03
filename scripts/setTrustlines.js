@@ -4,8 +4,10 @@ const trustlinesWalletSecretKey = process.argv[2]
 
 const assetsList = readJsonFile('./tokenList.json');
 
-const horizonServer = new StellarSdk.Horizon.Server('https://horizon.stellar.org');
-const networkPassphrase = StellarSdk.Networks.PUBLIC
+const horizonServer = new StellarSdk.Horizon.Server('https://horizon-testnet.stellar.org/');
+const networkPassphrase = StellarSdk.Networks.TESTNET;
+
+const publicKey = StellarSdk.Keypair.fromSecret(trustlinesWalletSecretKey).publicKey();
 
 const MAX_TRIES = 3;
 const INITIAL_FEE = 100;
@@ -21,9 +23,6 @@ function readJsonFile(filePath) {
 }
 
 async function seeTrustlines() {
-    const publicKey = StellarSdk.Keypair.fromSecret(
-        trustlinesWalletSecretKey.toString()
-      ).publicKey();
     const source = await horizonServer.loadAccount(publicKey);
     const trustedAssets = []
     const untrustedAssets = []
@@ -48,11 +47,7 @@ async function seeTrustlines() {
 }
 
 async function setTrustline(tokenSymbol, tokenIssuer, tries = 1) {
-    const publicKey = StellarSdk.Keypair.fromSecret(
-        trustlinesWalletSecretKey
-        ).publicKey();
     const source = await horizonServer.loadAccount(publicKey);
-
     const operation = StellarSdk.Operation.changeTrust({
         source: source.accountId(),
         asset: new StellarSdk.Asset(tokenSymbol, tokenIssuer),
@@ -94,7 +89,10 @@ async function main() {
         await setTrustline(asset.code, asset.issuer)
     }
 }
-
+if(assetsList.assets.length == 0){
+    console.error('No assets found in tokenList.json');
+    process.exit(1);
+}
 main()
     .then(() => {
         console.log('Trustlines set successfully');
