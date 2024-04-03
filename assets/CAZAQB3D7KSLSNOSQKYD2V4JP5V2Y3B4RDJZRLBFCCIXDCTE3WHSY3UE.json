@@ -3,7 +3,7 @@
     "issuer": "GATALTGTWIOT6BUDBCZM3Q4OQ4BO2COLOAZ7IYSKPLC2PMSOPPGF5V56",
     "contract": "CAZAQB3D7KSLSNOSQKYD2V4JP5V2Y3B4RDJZRLBFCCIXDCTE3WHSY3UE",
     "name": "white ethereum",  
-    "org": "wETH",   
+    "org": "wETHereum",   
     "domain": "ns.smt",
     "icon": "ns.smt/icon?asset=ASD2",    
     "decimals": "7"
