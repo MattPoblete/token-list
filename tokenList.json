@@ -5,5 +5,27 @@
   "version": "1.1.0",
   "feedback": "https://github.com/soroswap/token-list",
   "network": "mainnet",
-  "assets": []
+  "assets": [
+    {
+      "code": "EURC",
+      "issuer": "GCPJFNZAARY3Z2AM7RVXDZDLPOEBT4QHTQXFOFKMZHLV7PPDKE2M67Q6",
+      "name": "EURoCoin",
+      "contract": "CBYSL2H7BJ43BWMYEMDPAAET3SF7QVRFVDDV3ODGKWDZGNPRHJICIQPQ",
+      "icon": "https://static.ultrastellar.com/media/assets/img/f8b00dbf-64b3-488f-bcd2-354f29e2cdc8.png",
+      "org": "Ultra Capital LLC",
+      "domain": "undefined",
+      "decimals": 7 
+    },
+    {
+      "code": "ASD2",    
+      "issuer": "GBZXUKUYGXLASTLIXGIV2RJGWQHVRIS7AANR7AHXFPA67LNSAGO6WPPE",
+      "contract": "CC6NDZZ7VX7UOUQVC3QOARDS24DV4F7ADKYC5LY7PQBIPHJWRJKGSKNF",
+      "name": "Asset Demo 2",  
+      "org": "Ultra Capital LLC",
+      "domain": "ultracapital.xyz",
+      "icon": "https://ipfs.io/ipfs/bafkreidhjwrkvsvuixny3j6w2xk4vhr5x7urz525usl7xvjur35fsc6bmu",
+      "decimals": 7
+    }
+
+  ]
 }
