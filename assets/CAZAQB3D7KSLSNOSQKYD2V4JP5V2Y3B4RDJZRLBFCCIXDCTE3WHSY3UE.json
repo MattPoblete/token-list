@@ -1,10 +1,10 @@
 {
-    "code": "wETH",    
-    "issuer": "GATALTGTWIOT6BUDBCZM3Q4OQ4BO2COLOAZ7IYSKPLC2PMSOPPGF5V56",
-    "contract": "CAZAQB3D7KSLSNOSQKYD2V4JP5V2Y3B4RDJZRLBFCCIXDCTE3WHSY3UE",
-    "name": "white ethereum",  
+    "code": "EURC",
+    "issuer": "GCPJFNZAARY3Z2AM7RVXDZDLPOEBT4QHTQXFOFKMZHLV7PPDKE2M67Q6",
+    "name": "EURoCoin",
+    "contract": "CBYSL2H7BJ43BWMYEMDPAAET3SF7QVRFVDDV3ODGKWDZGNPRHJICIQPQ",
+    "icon": "https://static.ultrastellar.com/media/assets/img/f8b00dbf-64b3-488f-bcd2-354f29e2cdc8.png",
     "org": "Ultra Capital LLC",
-    "domain": "null",
-    "icon": "https://ipfs.io/ipfs/bafkreidhjwrkvsvuixny3j6w2xk4vhr5x7urz525usl7xvjur35fsc6bmu",
-    "decimals": 7
+    "domain": "ultracapital.xyz",
+    "decimals": 7 
 }
