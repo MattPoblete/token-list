@@ -4,8 +4,8 @@ const trustlinesWalletSecretKey = process.argv[2]
 
 const assetsList = readJsonFile('./tokenList.json');
 
-const horizonServer = new StellarSdk.Horizon.Server('https://horizon.stellar.org');
-const networkPassphrase = StellarSdk.Networks.PUBLIC
+const horizonServer = new StellarSdk.Horizon.Server('https://horizon-testnet.stellar.org/');
+const networkPassphrase = StellarSdk.Networks.TESTNET;
 
 const MAX_TRIES = 3;
 const INITIAL_FEE = 100;
